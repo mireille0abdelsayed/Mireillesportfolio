@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: georgia, serif, Gotham, helvetica, verdana, sans-serif;
+  font-size: 20px;
+}
+
+.beginning {
+  background-color: #AE9B80;
+}
+
+.global_crisis {
+  background-color: #DDD5C9;
+}
+
+.exodus {
+  background-color: #AE9B80;
+}
+
+.reunion_jeopardy {
+  background-color: #DDD5C9;
+}
+
+h1 {
+  font-size: 4em;
+  font-family: georgia, times, serif;
+  text-transform: capitalize;
+}
+
+header {
+  background-color: #333;
+  color: #614E42;
+  padding: 1em;
+  text-align: center;
+}
+
+header h2 {
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  margin-top: 1em;
+}
+
+.beginning header h2 {
+  color: #eee;
+}
+
+.global_crisis header h2 {
+  color: #AE9B80;
+}
+
+.exodus header h2 {
+  color: #eee;
+}
+
+.reunion_jeopardy header h2 {
+  color: #AE9B80;
+}
+
+nav {
+  background: #eee;
+  text-align: center;
+  margin-bottom: 1em;
+  padding: .05em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+}
+
+nav a:link {
+  background: #eee;
+  color: #333;
+  padding: .5em 1em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #555;
+}
+
+nav a:hover {
+  background: #333;
+  color: #eee;
+}
+
+nav a:active {
+  color: white;
+}
+
+nav a.current {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+figure {
+  margin: 50px auto ;
+  text-align: center;
+}
+
+figure img {
+  width: 60%;
+}
+
+article {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  color: #333;
+}
+
+article h2 {
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 1em;
+}
+
+.col2 {
+  column-count: 2;
+  column-gap: 2em;
+}
+
+.col2 h2 {
+  text-align: left;
+  column-span: all;
+}
+
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.3em;
+}
+
+p.pull_quote {
+  border-left: solid 1em #333;
+  padding: 1em;
+  margin: 0 1em .5em;
+  font-family: georgia, times, serif;
+  font-style: italic;
+  background: url(../images/grey3.jpeg) fixed;
+  overflow: hidden;
+  text-align: center;
+}
+
+p.pull_quote::before {
+  content: '“';
+}
+
+p.pull_quote::after {
+  content: '”';
+}
+
+footer {
+  background-color: #333;
+  color: #eee;
+  padding: 1em;
+  text-align: center;
+  border-top: solid .5em #eee;
+  margin-top: 50px;
+}
+footer a:link {
+  color: white;
+}
+
+footer a:visited {
+  color: #DDD5C9;
+}
+
+footer a:hover {
+  color: grey;
+}
